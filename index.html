@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Your Name · Teacher Education Researcher</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Work+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<style>
+:root{--bg:#EFF3F1;--surface:#fff;--ink:#22333B;--muted:#53646b;--sage:#5E8B7E;--link:#3b6759;--clay:#C7A17A;--line:#d3dcd8;--chip:#dfe9e5;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#172228;--surface:#22333B;--ink:#EFF3F1;--muted:#a9b8b3;--link:#8fc4b4;--line:#364a52;--chip:#2c434b;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#172228;--surface:#22333B;--ink:#EFF3F1;--muted:#a9b8b3;--link:#8fc4b4;--line:#364a52;--chip:#2c434b;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);overflow-anchor:none}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 'Work Sans',system-ui,sans-serif}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
+h1,h2,h3{font-family:Manrope,system-ui,sans-serif;font-weight:800;line-height:1.2;margin:0}
+a{color:var(--link)}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--bg);border-bottom:1px solid var(--line)}
+.bar{max-width:1080px;margin:auto;display:flex;align-items:center;gap:16px;padding:12px 20px}
+.brand{font-family:Manrope,system-ui,sans-serif;font-weight:800;font-size:1.1rem;color:var(--ink);text-decoration:none;margin-right:auto}
+nav{display:flex;gap:4px;flex-wrap:wrap}
+nav a{color:var(--muted);text-decoration:none;padding:6px 12px;border-radius:99px;font-size:.95rem}
+nav a.on{background:var(--ink);color:var(--bg)}
+nav a:hover:not(.on){background:var(--chip)}
+#theme{border:1px solid var(--line);background:none;color:var(--ink);border-radius:99px;padding:6px 12px;font:inherit;font-size:.9rem;cursor:pointer}
+a:focus-visible,button:focus-visible{outline:3px solid var(--clay);outline-offset:2px}
+main{max-width:1080px;margin:auto;padding:48px 20px 24px}
+.page{display:none}.page.on{display:block}
+.hero{display:grid;grid-template-columns:200px 1fr;gap:40px;align-items:center}
+.photo{width:200px;height:200px;border-radius:50%;border:4px solid var(--sage);outline:2px solid var(--clay);outline-offset:5px;background:var(--chip);display:grid;place-items:center;font:800 3rem Manrope,system-ui,sans-serif;color:var(--link);overflow:hidden}
+.photo img{width:100%;height:100%;object-fit:cover}
+#banner{height:210px;background:#22333B;overflow:hidden}#banner svg,#banner img{display:block;width:100%;height:100%;object-fit:cover}
+.home{display:grid;grid-template-columns:250px 1fr;gap:64px}.home aside{margin-top:-110px;position:relative}
+.home .photo{width:200px;height:200px;border-radius:12px;border:5px solid var(--bg);outline:none;box-shadow:0 0 0 1px var(--line);margin-bottom:22px}
+.home aside h1{font-size:1.7rem}.home .role{font-size:.98rem;margin:8px 0 22px}
+.sl{list-style:none;padding:0;margin:0;display:grid;gap:12px}.sl a,.il{display:inline-flex;gap:10px;align-items:center}.sl svg,.il svg{width:22px;height:22px;flex:none;color:var(--link)}
+.about h2.pt{font-size:2.4rem;margin-bottom:14px}.tagline{font-size:1.2rem;color:var(--muted);margin:0 0 26px;max-width:56ch}.about .bio{margin-bottom:30px}.about .tags{margin-bottom:34px}
+.home + .cols{margin-top:80px}
+@media(max-width:700px){.home{grid-template-columns:1fr;gap:32px}.home aside{margin-top:-90px}}
+.hero h1{font-size:clamp(2.2rem,5vw,3.3rem)}
+.role{margin:8px 0 16px;color:var(--muted);font-size:1.05rem}
+.bio{max-width:62ch;margin:0 0 20px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px;padding:0;list-style:none}
+.tags li{background:var(--chip);border-radius:99px;padding:4px 14px;font-size:.9rem}
+.btn{display:inline-block;background:var(--ink);color:var(--bg);text-decoration:none;padding:10px 20px;border-radius:10px;font-weight:500;margin-right:10px}
+.btn.alt{background:none;color:var(--ink);border:1px solid var(--ink)}
+h2.pt{font-size:2rem;margin-bottom:12px}
+.lead{color:var(--muted);max-width:64ch;margin:0 0 28px}
+.theme{border-left:4px solid var(--sage);padding:2px 0 2px 20px}.rg{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:36px 48px}.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:0 48px;margin-top:40px}
+.theme h3{font-size:1.3rem;margin-bottom:4px}.theme p{margin:0}
+.grp{font-size:1.35rem;margin:44px 0 8px;padding-bottom:8px;border-bottom:2px solid var(--clay)}
+.item{padding:18px 0;border-bottom:1px solid var(--line)}
+.item .t{font-weight:600}.item .m{color:var(--muted);font-size:.95rem}
+.item .y{float:right;color:var(--muted);margin-left:16px;font-variant-numeric:tabular-nums}
+.me{font-weight:600;color:var(--ink)}
+.lk a{margin-right:14px;font-size:.92rem}
+.tl{position:relative;margin:28px 0 36px}
+.tl::before{content:"";position:absolute;left:50%;top:6px;bottom:6px;width:3px;transform:translateX(-50%);background:var(--sage)}
+.ev{position:relative;width:50%;padding:0 38px 30px 0;text-align:right}
+.ev:nth-child(even){margin-left:50%;padding:0 0 30px 38px;text-align:left}
+.ev::before{content:"";position:absolute;right:-10px;top:4px;width:20px;height:20px;border-radius:50%;background:var(--bg);border:4px solid var(--sage)}
+.ev:nth-child(even)::before{right:auto;left:-10px}
+.ev .d{color:var(--muted);font-size:.9rem;font-style:italic}
+.ev h3{font-size:1.1rem;margin:2px 0}
+.ev p{margin:4px 0 0}
+.cgrid{display:grid;grid-template-columns:1.3fr 1fr;gap:48px;align-items:center;margin-top:28px}.cph{margin:0}.cph img,.ph{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:6px;display:block}.ph{background:var(--chip);display:grid;place-items:center;color:var(--link)}.ph svg{width:56px;height:56px}.cph figcaption{font-size:.8rem;color:var(--muted);margin-top:10px}.cd{margin:0}.cd dt{font-weight:600}.cd dd{margin:0 0 18px}@media(max-width:700px){.cgrid{grid-template-columns:1fr;gap:24px}}
+footer{margin-top:40px;background:var(--surface);border-top:3px solid var(--clay);color:var(--muted);font-size:.9rem}footer .fc{max-width:1080px;margin:auto;padding:14px 20px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:center;flex-direction:column;text-align:center}footer ul{list-style:none;padding:0;margin:0;display:flex;justify-content:center;flex-wrap:wrap;gap:8px 28px}footer li a{display:flex;gap:8px;align-items:center;text-decoration:none;color:var(--ink)}footer svg{width:20px;height:20px;flex:none;color:var(--link)}footer.min ul{display:none}
+@media(max-width:700px){.hero{grid-template-columns:1fr;gap:24px}.photo{width:150px;height:150px;font-size:2.4rem}.bar{flex-wrap:wrap}.brand{width:100%}.tl::before{left:10px}.ev,.ev:nth-child(even){width:100%;margin-left:0;padding:0 0 26px 36px;text-align:left}.ev::before,.ev:nth-child(even)::before{left:0;right:auto}}
+</style>
+</head>
+<body>
+<header><div class="bar"><a class="brand" href="#home" id="brand"></a><nav id="nav" aria-label="Main"></nav><button id="theme" type="button">Dark mode</button></div></header>
+<div id="banner" aria-hidden="true"></div><main id="main"></main>
+<footer id="foot"></footer>
+
+<script>
+/* ================================================================
+   EDIT ONLY THIS BLOCK. Everything on the site is built from it.
+   Keep the quotes " " and commas , exactly as they are.
+   ================================================================ */
+const DATA = {
+  name: "Your Name",
+  role: "PhD Scholar (UGC-JRF)",
+  institution: "IIT Bombay",
+  department: "Centre for Educational Technology",
+  tagline: "Researching how teachers notice, interpret and respond in classrooms.",
+  banner: "",                      // To use your own image, set banner: "images/banner.jpg". Empty shows the default pattern.
+  photo: "",                       // e.g. "images/me.jpg". Empty shows initials.
+  bio: "I study how teachers notice and make sense of what happens in classrooms, and how that attention can be developed in teacher education. Replace this paragraph with two or three sentences about your work.",
+  interests: ["Teacher noticing", "Teacher education", "Video-based reflection", "Classroom interaction"],
+  news: [
+    {date: "Oct 2026", text: "Placeholder: paper accepted at a journal."},
+    {date: "Aug 2026", text: "Placeholder: presented at a conference."},
+    {date: "Jul 2026", text: "Placeholder: received a travel grant."}
+  ],
+  cvFile: "cv.pdf",               // put your PDF next to index.html
+  emails: ["your.email@iitb.ac.in", "email@gmail.com"],
+  address: "Centre for Educational Technology, IIT Bombay, Powai, Mumbai 400076",
+  contactPhoto: "",                // e.g. "images/photo.jpg". One of your photographs works well here.
+  photoCredit: "Photo: Your Name",
+  links: {
+    scholar: "https://scholar.google.com/citations?user=XXXX",
+    linkedin: "https://www.linkedin.com/in/your-name",
+    orcid: "https://orcid.org/0000-0000-0000-0000",
+    instagram: "https://www.instagram.com/your-handle"
+  },
+  research: [
+    {title: "Teacher noticing", text: "Placeholder: what teachers attend to, how they interpret it, and how they decide to respond."},
+    {title: "Developing noticing in teacher education", text: "Placeholder: designs and tools that help pre-service and in-service teachers notice productively."},
+    {title: "Methods and technology", text: "Placeholder: video, eye tracking, or immersive tools used to study and support noticing."}
+  ],
+  publications: [
+    {type: "Journal articles", year: 2026, title: "Placeholder title of a journal article", authors: "Your Name, Co-author A", venue: "Journal of Teacher Education", doi: "https://doi.org/", pdf: ""},
+    {type: "Journal articles", year: 2025, title: "Another placeholder journal article", authors: "Co-author A, Your Name", venue: "Teaching and Teacher Education", doi: "https://doi.org/", pdf: ""},
+    {type: "Conference papers", year: 2026, title: "Placeholder conference paper", authors: "Your Name", venue: "International Conference on Educational Technology", doi: "", pdf: ""},
+    {type: "Book chapters", year: 2025, title: "Placeholder book chapter", authors: "Your Name, Co-author B", venue: "In: Editors (Eds.), Book Title. Publisher", doi: "", pdf: ""}
+  ],
+  /* kind becomes the group heading. Use any name you like, e.g. "Talks given". */
+  activities: [
+    {kind: "Talks given", year: 2026, title: "Placeholder talk title", event: "Seminar name, Institution"},
+    {kind: "Talks given", year: 2025, title: "Placeholder conference presentation", event: "Conference name, City"},
+    {kind: "Conferences attended", year: 2026, title: "Placeholder conference name", event: "City, Country"},
+    {kind: "Other academic activities", year: 2025, title: "Placeholder: reviewer, workshop or committee role", event: "Organisation"}
+  ],
+  /* kind: education | position | funding | award */
+  cv: [
+    {when: "2025", kind: "award", title: "Travel grant", where: "Funding body", text: "Placeholder: supported attendance at a conference."},
+    {when: "2024 – present", kind: "funding", title: "UGC Junior Research Fellowship (JRF)", where: "University Grants Commission, India", text: "Fellowship for doctoral research."},
+    {when: "2024 – present", kind: "position", title: "PhD Scholar", where: "IIT Bombay", text: "Centre for Educational Technology. Thesis topic: teacher noticing."},
+    {when: "2023 – 2024", kind: "position", title: "Research Assistant (placeholder)", where: "Institution name", text: "Placeholder."},
+    {when: "2021 – 2023", kind: "education", title: "M.Ed. or M.A. (placeholder)", where: "University name", text: "Placeholder."},
+    {when: "2018 – 2021", kind: "education", title: "B.Ed. or B.A. (placeholder)", where: "University name", text: "Placeholder."}
+  ]
+};
+/* ============ Nothing below needs editing ============ */
+const D = DATA, $ = s => document.querySelector(s);
+const PAGES = [["home","Home"],["research","Research"],["activities","Activities"],["cv","CV"],["contact","Contact"]];
+const ico = {
+  scholar: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3 1 9l11 6 9-4.9V17h2V9L12 3zM5 13.2V17c0 1.7 3.1 3 7 3s7-1.3 7-3v-3.8l-7 3.8-7-3.8z"/></svg>',
+  linkedin: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="1" y="1" width="22" height="22" rx="4" fill="currentColor"/><path fill="#fff" d="M5 9h3v10H5zM6.5 4.5a1.7 1.7 0 110 3.4 1.7 1.7 0 010-3.4zM10 9h3v1.4c.5-.9 1.600-1.600 3.100-1.600 3 0 3.400 2 3.400 4.500V19h-3v-5c0-1.200 0-2.500-1.600-2.500S13 12.800 13 14v5h-3z"/></svg>',
+  orcid: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="currentColor"/><text x="12" y="16" text-anchor="middle" font-size="9" font-weight="700" font-family="Work Sans,sans-serif" fill="#fff">iD</text></svg>',
+  instagram: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.500" cy="6.500" r="1" fill="currentColor" stroke="none"/></svg>'
+};
+const initials = D.name.split(" ").map(w => w[0]).join("").slice(0,2);
+const socialList = '<ul class="sl">' + [["scholar","Google Scholar"],["orcid","ORCID"],["linkedin","LinkedIn"]].map(s => `<li><a href="${D.links[s[0]]}">${ico[s[0]]}${s[1]}</a></li>`).join("") + "</ul>";
+const mailIco = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="3"/><path d="m3 7 9 6 9-6"/></svg>';
+$("#banner").innerHTML = D.banner ? `<img src="${D.banner}" alt="">` : '<svg viewBox="0 0 1200 210" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><circle cx="1020" cy="30" r="170" fill="#5E8B7E"/><circle cx="880" cy="150" r="64" fill="#C7A17A"/><circle cx="880" cy="150" r="112" fill="none" stroke="#EFF3F1" stroke-opacity=".25" stroke-width="2"/><circle cx="130" cy="200" r="100" fill="#5E8B7E" fill-opacity=".55"/><circle cx="300" cy="40" r="30" fill="#C7A17A"/><circle cx="560" cy="120" r="14" fill="#EFF3F1" fill-opacity=".5"/></svg>';
+const mine = s => s.split(D.name).join('<span class="me">' + D.name + "</span>");
+const home = `<section class="page" id="p-home"><div class="home"><aside>
+  <div class="photo">${D.photo ? `<img src="${D.photo}" alt="Portrait of ${D.name}">` : initials}</div>
+  <h1>${D.name}</h1><p class="role">${D.role}<br>${D.institution}<br>${D.department}</p>${socialList}</aside>
+  <div class="about"><h2 class="pt">About me</h2><p class="tagline">${D.tagline}</p>
+  <p class="bio">${D.bio}</p><ul class="tags">${D.interests.map(i => `<li>${i}</li>`).join("")}</ul>
+  <a class="btn" href="#research">Read my research</a><a class="btn alt" href="#cv">View CV</a></div></div>
+  <div class="cols"><div><h3 class="grp">Latest publications</h3>${[...D.publications].sort((a,b) => b.year - a.year).slice(0,3).map(p => `<div class="item"><span class="y">${p.year}</span><div class="t">${p.title}</div><div class="m">${p.venue}</div></div>`).join("")}</div>
+  <div><h3 class="grp">News</h3>${D.news.map(n => `<div class="item"><span class="y">${n.date}</span><div>${n.text}</div></div>`).join("")}</div></div></section>`;
+const research = `<section class="page" id="p-research"><h2 class="pt">Research</h2>
+  <p class="lead">The questions I work on, in broad terms.</p>
+  <div class="rg">${D.research.map(r => `<div class="theme"><h3>${r.title}</h3><p>${r.text}</p></div>`).join("")}</div>`;
+const types = [...new Set(D.publications.map(p => p.type))];
+const pubs = `<h2 class="pt" style="margin-top:48px">Publications</h2>
+  <p class="lead">Full list on <a href="${D.links.scholar}">Google Scholar</a> and <a href="${D.links.orcid}">ORCID</a>.</p>
+  ${types.map(t => `<h3 class="grp">${t}</h3>` + D.publications.filter(p => p.type === t).sort((a,b) => b.year - a.year).map(p =>
+  `<div class="item"><span class="y">${p.year}</span><div class="t">${p.title}</div><div class="m">${mine(p.authors)}. ${p.venue}</div>
+   <div class="lk">${p.doi ? `<a href="${p.doi}">DOI</a>` : ""}${p.pdf ? `<a href="${p.pdf}">PDF</a>` : ""}</div></div>`).join("")).join("")}</section>`;
+const acts = `<section class="page" id="p-activities"><h2 class="pt">Activities</h2><p class="lead">Talks given, conferences attended and other academic activities.</p>
+  ${[...new Set(D.activities.map(a => a.kind))].map(k => `<h3 class="grp">${k}</h3>` + D.activities.filter(a => a.kind === k).sort((a,b) => b.year - a.year).map(a => `<div class="item"><span class="y">${a.year}</span><div class="t">${a.title}</div><div class="m">${a.event}</div></div>`).join("")).join("")}</section>`;
+const CVG = [["Education",["education"]],["Experience",["position"]],["Fellowships, grants and awards",["funding","award"]]];
+const evt = e => `<div class="ev ${e.kind}"><div class="d">${e.when}</div><h3>${e.title}</h3><div class="m">${e.where}</div><p>${e.text}</p></div>`;
+const cvGroups = CVG.map(g => { const l = D.cv.filter(e => g[1].includes(e.kind)); return l.length ? `<h3 class="grp">${g[0]}</h3><div class="tl">${l.map(evt).join("")}</div>` : ""; }).join("");
+const cv = `<section class="page" id="p-cv"><h2 class="pt">CV</h2>
+  <p class="lead">Education, positions, funding and awards in one timeline.</p><a class="btn" href="${D.cvFile}">Download CV (PDF)</a>
+  ${cvGroups}
+</section>`;
+const contactHTML = `<ul>
+  <li><a href="${D.links.scholar}">${ico.scholar}Google Scholar</a></li><li><a href="${D.links.orcid}">${ico.orcid}ORCID</a></li><li><a href="${D.links.linkedin}">${ico.linkedin}LinkedIn</a></li></ul>`;
+const ct = `<section class="page" id="p-contact"><h2 class="pt" style="text-align:center">Get in touch</h2>
+  <div class="cgrid"><figure class="cph">${D.contactPhoto ? `<img src="${D.contactPhoto}" alt="">` : `<div class="ph">${ico.instagram}</div>`}<figcaption>${D.photoCredit}</figcaption></figure>
+  <dl class="cd">${D.emails.map((m,i) => `<dt>${i ? "Alternate email" : "Email"}</dt><dd><a class="il" href="mailto:${m}">${mailIco}${m}</a></dd>`).join("")}
+  <dt>Address</dt><dd>${D.address}</dd><dt>Google Scholar</dt><dd><a class="il" href="${D.links.scholar}">${ico.scholar}View profile</a></dd>
+  <dt>ORCID</dt><dd><a class="il" href="${D.links.orcid}">${ico.orcid}${D.links.orcid.replace("https://orcid.org/","")}</a></dd><dt>LinkedIn</dt><dd><a class="il" href="${D.links.linkedin}">${ico.linkedin}View profile</a></dd>
+  <dt>Instagram</dt><dd><a class="il" href="${D.links.instagram}">${ico.instagram}My photography</a></dd></dl></div></section>`;
+$("#main").innerHTML = home + research + pubs + acts + cv + ct;
+$("#brand").textContent = D.name;
+$("#nav").innerHTML = PAGES.map(p => `<a href="#${p[0]}" data-p="${p[0]}">${p[1]}</a>`).join("");
+$("#foot").innerHTML = '<div class="fc">' + contactHTML + '<span>© ' + new Date().getFullYear() + ' ' + D.name + '</span></div>';
+function route(){
+  const h = (location.hash.slice(1) || "home"), id = PAGES.some(p => p[0] === h) ? h : "home";
+  document.querySelectorAll(".page").forEach(s => s.classList.toggle("on", s.id === "p-" + id));
+  document.querySelectorAll("#nav a").forEach(a => a.classList.toggle("on", a.dataset.p === id));
+  document.title = (id === "home" ? "" : PAGES.find(p => p[0] === id)[1] + " · ") + D.name;
+  window.scrollTo(0, 0); $("#foot").classList.toggle("min", id === "home");
+}
+addEventListener("hashchange", route); route();
+const bn = $("#banner"), bannerH = () => { bn.style.height = Math.max(0, 210 - scrollY) + "px" };
+addEventListener("scroll", bannerH, {passive: true}); bannerH();
+const root = document.documentElement, btn = $("#theme");
+function setTheme(t){ root.setAttribute("data-theme", t); btn.textContent = t === "dark" ? "Light mode" : "Dark mode"; try{ localStorage.setItem("theme", t) }catch(e){} }
+let saved = null; try{ saved = localStorage.getItem("theme") }catch(e){}
+setTheme(saved || "light");
+btn.onclick = () => setTheme(root.getAttribute("data-theme") === "dark" ? "light" : "dark");
+</script>
+</body>
+</html>
