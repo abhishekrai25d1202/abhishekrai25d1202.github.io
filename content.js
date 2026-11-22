@@ -41,7 +41,7 @@ const SITE = {
   links: {
     scholar:   "https://scholar.google.com/citations?user=AHM1ChQAAAAJ&hl=en",         // Google Scholar: open your profile and copy the whole web address
     orcid:     "https://orcid.org/0009-0002-7932-7374",         // ORCID: looks like "https://orcid.org/0000-0000-0000-0000"
-    linkedin:  "https://www.linkedin.com/in/rai-abhishek-kumar/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BPKxF6ZAeRHq3RJZ6NTH2%2Fg%3D%3D",         // LinkedIn: looks like "https://www.linkedin.com/in/your-name"
+    linkedin:  "https://www.linkedin.com/in/rai-abhishek-kumar/",         // LinkedIn: looks like "https://www.linkedin.com/in/your-name"
     instagram: "https://www.instagram.com/foto_chemistry/",         // Instagram (your photography): "https://www.instagram.com/your-handle"
   },
 
@@ -101,6 +101,7 @@ const SITE = {
 /* ---------- 6. RESEARCH THEMES (Research page) ---------------------- */
 
   research: [
+    { title: "AI literacy in teacher education", text: "My M.Ed. dissertation measured AI literacy among 402 B.Ed. students in Prayagraj district with a validated survey tool, and argued for building AI education into teacher training through curriculum reform and targeted support." },
     { title: "Teacher education in India", text: "How teacher education in India is shifting from training towards holistic development, and what this means for policy and practice." },
     { title: "AI in assessment and learning", text: "How AI-based tools can support educational assessment in higher education and reduce cognitive load in online learning." },
     // Add your PhD theme here by copying a line above.
@@ -114,9 +115,9 @@ const SITE = {
    pdf    = file name of a PDF you uploaded, or ""                     */
 
   publications: [
-    { type: "Journal articles", year: 2025, title: "Teacher Education in India: Tracing the Shift from Training to Holistic Development", authors: "Rai, A. K. & K., Chellamani", venue: "i-manager's Journal on School Educational Technology, 20(4)", link: "https://doi.org/10.26634/jsch.20.4.21797", pdf: "" },
-    { type: "Conference proceedings", year: 2025, title: "The Role of Artificial Intelligence in Reducing Cognitive Load in Online Learning Environments: A Literature Review", authors: "Rai, A. K. & Devendar, B.,", venue: "International Conference on Cognitive Science: Evidence for Teacher Education. ISBN 978-93-5945-485-6", link: "", pdf: "" },
-    { type: "Book chapters", year: "2025", title: "Chapter titled 'Research in Teacher Education Global & Indian Context: Teacher Education in India' in the book Teacher Education in India Perspectives, Policies and Operation", authors: "", venue: "K. Chellamani (Ed.). Neelkamal Publication. ISBN 978-93-48366-60-3", link: "", pdf: "" },
+    { type: "Journal articles", year: 2025, title: "Teacher Education in India: Tracing the Shift from Training to Holistic Development", authors: "Rai, A. K., & Chellamani, K.", venue: "i-manager's Journal on School Educational Technology, 20(4)", link: "https://doi.org/10.26634/jsch.20.4.21797", pdf: "" },
+    { type: "Conference proceedings", year: 2025, title: "The Role of Artificial Intelligence in Reducing Cognitive Load in Online Learning Environments: A Literature Review", authors: "Rai, A. K., & Devendar, B.", venue: "International Conference on Cognitive Science: Evidence for Teacher Education. ISBN 978-93-5945-485-6", link: "", pdf: "" },
+    { type: "Book chapters", year: "2025", title: "Research in Teacher Education Global & Indian Context: Teacher Education in India", authors: "", venue: "In K. Chellamani (Ed.), Teacher Education in India: Perspectives, Policies and Operation. Neelkamal Publication. ISBN 978-93-48366-60-3", link: "", pdf: "" },
   ],
 
 
@@ -154,8 +155,8 @@ const SITE = {
 
   education: [
     { when: "Jul 2025 – present", title: "PhD, Educational Technology", where: "Centre for Educational Technology, IIT Bombay", text: "UGC Junior Research Fellow." },
-    { when: "2023 – 2025", title: "M.Ed., Educational Technology", where: "Pondicherry University, Puducherry", text: "" },
-    { when: "2021 – 2023", title: "B.Ed.", where: "Prof. Rajendra Singh (Rajju Bhaiya) University, Prayagraj", text: "" },
+    { when: "2023 – 2025", title: "M.Ed., Educational Technology", where: "Pondicherry University, Puducherry", text: "NCTE-approved programme. CGPA 9.34/10 (up to 3rd semester). Dissertation: AI literacy among 402 B.Ed. students in Prayagraj district." },
+    { when: "2021 – 2023", title: "B.Ed.", where: "Prof. Rajendra Singh (Rajju Bhaiya) University, Prayagraj", text: "Pedagogy of Mathematics and Natural Science. Four-week school internship at Dr. Rizvi Springfield School." },
     { when: "2018 – 2021", title: "B.Sc.", where: "Prof. Rajendra Singh (Rajju Bhaiya) University, Prayagraj", text: "" },
   ],
 
@@ -167,6 +168,8 @@ const SITE = {
 
   experience: [   // teaching and work experience
     { when: "Autumn 2026", title: "Teaching Assistant, ET-610: Learning Analytics and Educational Data Mining", where: "IIT Bombay", text: "" },
+    { when: "Dec 2024 – Jan 2025", title: "Internship", where: "Vindheshvari Ucchatar Madhyamik Vidyalaya, Ghazipur", text: "Secondary school teacher and observer. Created blended-learning lesson plans, YouTube teaching content and a portfolio assessment tool, and kept a weekly e-blog." },
+    { when: "May – Jun 2024", title: "Internship", where: "Vivekanandha College of Education, Puducherry", text: "Secondary school teacher and observer. Created blended-learning lesson plans, YouTube teaching content and a portfolio assessment tool, and kept a weekly e-blog." },
   ],
 
 };
