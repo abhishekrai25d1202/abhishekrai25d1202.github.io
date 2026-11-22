@@ -35,14 +35,14 @@ const SITE = {
    Same order as on the Contact page. Web links must start with https://
    Anything you leave empty "" is hidden on the website.                 */
 
-  email:          "",      // your main email, e.g. "name@iitb.ac.in"
-  alternateEmail: "",      // your second email, e.g. "name@gmail.com"
+  email:          "abhishek.rai@iitb.ac.in",      // your main email, e.g. "name@iitb.ac.in"
+  alternateEmail: "abhi05326@gmail.com",      // your second email, e.g. "name@gmail.com"
   address:        "Centre for Educational Technology, IIT Bombay, Powai, Mumbai 400076",
   links: {
-    scholar:   "",         // Google Scholar: open your profile and copy the whole web address
-    orcid:     "",         // ORCID: looks like "https://orcid.org/0000-0000-0000-0000"
-    linkedin:  "",         // LinkedIn: looks like "https://www.linkedin.com/in/your-name"
-    instagram: "",         // Instagram (your photography): "https://www.instagram.com/your-handle"
+    scholar:   "https://scholar.google.com/citations?user=AHM1ChQAAAAJ&hl=en",         // Google Scholar: open your profile and copy the whole web address
+    orcid:     "https://orcid.org/0009-0002-7932-7374",         // ORCID: looks like "https://orcid.org/0000-0000-0000-0000"
+    linkedin:  "https://www.linkedin.com/in/rai-abhishek-kumar/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BPKxF6ZAeRHq3RJZ6NTH2%2Fg%3D%3D",         // LinkedIn: looks like "https://www.linkedin.com/in/your-name"
+    instagram: "https://www.instagram.com/foto_chemistry/",         // Instagram (your photography): "https://www.instagram.com/your-handle"
   },
 
 
@@ -114,9 +114,9 @@ const SITE = {
    pdf    = file name of a PDF you uploaded, or ""                     */
 
   publications: [
-    { type: "Journal articles", year: 2025, title: "Teacher Education in India: Tracing the Shift from Training to Holistic Development", authors: "Rai, A. K.", venue: "i-manager's Journal on School Educational Technology, 20(4)", link: "https://doi.org/10.26634/jsch.20.4.21797", pdf: "" },
-    { type: "Conference proceedings", year: 2025, title: "The Role of Artificial Intelligence in Reducing Cognitive Load in Online Learning Environments: A Literature Review", authors: "", venue: "International Conference on Cognitive Science: Evidence for Teacher Education. ISBN 978-93-5945-485-6", link: "", pdf: "" },
-    { type: "Book chapters", year: "", title: "Chapter in: Teacher Education in India: Perspectives, Policies and Operation", authors: "", venue: "K. Chellamani (Ed.). Neelkamal Publication. ISBN 978-93-48366-60-3", link: "", pdf: "" },
+    { type: "Journal articles", year: 2025, title: "Teacher Education in India: Tracing the Shift from Training to Holistic Development", authors: "Rai, A. K. & K., Chellamani", venue: "i-manager's Journal on School Educational Technology, 20(4)", link: "https://doi.org/10.26634/jsch.20.4.21797", pdf: "" },
+    { type: "Conference proceedings", year: 2025, title: "The Role of Artificial Intelligence in Reducing Cognitive Load in Online Learning Environments: A Literature Review", authors: "Rai, A. K. & Devendar, B.,", venue: "International Conference on Cognitive Science: Evidence for Teacher Education. ISBN 978-93-5945-485-6", link: "", pdf: "" },
+    { type: "Book chapters", year: "2025", title: "Chapter titled 'Research in Teacher Education Global & Indian Context: Teacher Education in India' in the book Teacher Education in India Perspectives, Policies and Operation", authors: "", venue: "K. Chellamani (Ed.). Neelkamal Publication. ISBN 978-93-48366-60-3", link: "", pdf: "" },
   ],
 
 
